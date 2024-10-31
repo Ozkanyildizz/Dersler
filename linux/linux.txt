@@ -1,0 +1,48 @@
+				301
+
+Çalışma süreçleri listeleme 
+
+man ps
+ps -ef   ps -aux  ikisi de çıktıları verir 
+ps -auozkan  ozkan kullanıcısının çalıştırdıklarını gösterir
+
+Süreçlerin canlı takibi 
+ps -ef | grep gedit  gedit programını gösteriri sadece 
+paket yükeleme 
+sudo apt install htop
+htop  saniyede bir günceller çalışan komutları
+
+Süreçleri Sonlandırma 
+1 (sudo) kill ID (6630)
+2 kill -9 17842  veri kaybına neden olabilir hızlı kapatır 
+3 kill -15 17842 veri kaybı olamz yavaş kapatır
+4 pkill chrome  chrome kelimesi geçen herşeyi kapatır
+
+
+Arkaplanda çalıştırma 
+
+firefox & arkaplanda çalışır terminale bağlı şekilde 
+nohup firefox & çalışır terminale bağlı değil
+ctrl+z çalışan uygulamayı arka plana alır 
+bg (background) arkaplandaki uygulamaları gösterir terminale hala bağlı olur 
+disown -h %1 terminalden bağımlı olmaz 
+
+Servisleri Görüntüleme
+ 
+systemctl list-units --type service  hepsi 
+systemctl list-units --type service --state running sadece çalışanlar
+ systemctl status cron.service bu servis hakkında bilgi verir
+
+Servis Yönetimi 
+
+sudo systemctl stop NetworkManager.service durdurur
+sudo systemctl start NetworkManager.service çalıştırır
+sudo systemctl restart NetworkManager.service restartlar
+
+
+
+
+
+
+
+
