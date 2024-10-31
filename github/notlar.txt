@@ -1,0 +1,45 @@
+Gİt
+
+pwd konumu gösterir
+ls klasörleri gösterir
+cd folder dosyasına gider
+cd.. üst dizine gider
+mkdir folder oluşturur
+touch deneme.txt file oluşturur
+clear terminali sil
+git status git var mı kontrol eder
+git init projeye giti dahil eder
+git config --global user.name "Özkan Yıldız" username ekler
+git config --global user.email "yildizozkan6541@gmail.com"
+git config --global --get user.name
+git add file git'e ekle tek dosya
+git add. ->  bütün dosyaları gönder
+git commit -m mesajı gönderir
+git log yapılan değişikliği gösterir
+git branch master dynamic brnach oluşturur
+git switch branch değiştirir
+git merge branch birleştirir
+git restore file.py değişiklikleri geri al
+git stash anlık kaydeder branch değiştirirken git stash geri getirir
+birden fazla stash olabilir git stash list 
+git stash apply stash@{1} istediğin stashi geri getir
+git stash clear stashi siler
+git checkout konum "cbe57b..." eskiye döner yeni bir brnach açılmalı 
+git reset "cbe57b.." eski commiti siler  değişiklik kalır
+git reset --hard "cbe57b.." eski commiti siler  değişiklik de siler
+git revert "cbe57b.." istediğin adıma dön devam et
+gitt diff  değişiklik gösterir kodları git diff kod git diff
+git diff branch1 branch2 ikisi arasındaki değişiklikleri gösteirr
+git diff cbe57b..cbe57b iki commit arasındaki değişiklikleri gösterir
+
+GİTHUB
+
+git status
+git init
+git add .
+git commit -m "mesaj"
+git remote add origin https://github.com/Ozkanyildizz/Word-App.git () tek sefer
+git branch -M master
+git push -u origin master
+
+

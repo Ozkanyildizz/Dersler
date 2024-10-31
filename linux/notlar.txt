@@ -1,0 +1,28 @@
+terminal = ctrl+ alt + t
+ls -a = dizindeki her şeyi göster
+pwd = mevcut konumu gösterir
+cd masaüstü = masaüstü konumuna gider ve tab tuşuna basarsan tamalar
+cd .. = bir üst dizine gider
+man (ls, date, cd vs) = verile komuta dair herşeyi verir klavuz
+history = girilen geçmiş komutları verir 
+history -c = clear history 
+mv .doc. = dosyalar şuanki konuma taşır 
+rm dosya.txt = siler
+touch yeni.txt = yeni adında dosya oluşturur
+mkdir yenidizin = yeni dizin oluşturur
+cp yalova marmara/Yalova = Yalova adındaki dosyayı Marmara dizinine kopyalar
+echo "Dosya içeriği" > dosya.txt = dosya.txt ye Dosya içeriği yazar
+cat dosya.txt = dosyayı okur 
+
+more dosya.txt
+less dosya.txt = Bu komutlar, dosya içeriğini sayfa sayfa görüntüler. Kullanıcı, boşluk tuşuna basarak bir sonraki sayfayı, q tuşuna basarak çıkmayı sağlayabilir
+
+head dosya.txt
+tail dosya.txt
+Bu komutlar, dosya içeriğinin ilk/son 10 satırını görüntüler.
+head -n 5 dosya.txt ile ilk 5 satırı,
+tail -n 2 dosya.txt ile son 2 satırı görüntüleyebilirsiniz
+
+rmdir dizin_adı = dizini siler 
+mv eski_dosya_adi yeni_dosya_adi = dosyanın adını değiştirme 
+tac dosya.txt = satırları tersten yazdırır
